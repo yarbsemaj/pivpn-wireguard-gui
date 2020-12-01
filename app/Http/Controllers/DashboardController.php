@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Driver\Drivers\WiregaurdDriver;
+use App\Driver\Drivers\WireguardDriver;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 
@@ -12,7 +12,7 @@ class DashboardController extends Controller
 
     public function __construct()
     {
-        $this->vpnDriver = new WiregaurdDriver();
+        $this->vpnDriver = new WireguardDriver();
     }
 
     public function index(){

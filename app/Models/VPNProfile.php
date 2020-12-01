@@ -3,7 +3,7 @@
 namespace App\Models;
 
 
-use App\Driver\Drivers\WiregaurdDriver;
+use App\Driver\Drivers\WireguardDriver;
 use Jenssegers\Model\Model;
 
 class VPNProfile extends Model
@@ -12,7 +12,7 @@ class VPNProfile extends Model
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);
-        $this->vpnDriver = new WiregaurdDriver();
+        $this->vpnDriver = new WireguardDriver();
     }
 
     public function getRawAttribute(){

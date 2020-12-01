@@ -1,4 +1,4 @@
-# PiVPN Wiregaurd GUI 
+# PiVPN Wireguard GUI 
 ![Image of WireGarurd VPN Home](https://user-images.githubusercontent.com/17494632/100800240-37841b80-341e-11eb-9cdb-b5456f4ede2b.png)
 ##Setup
  1. `composer install`

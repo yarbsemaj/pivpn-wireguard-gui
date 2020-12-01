@@ -11,7 +11,7 @@ use App\Models\VPNProfile;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 
-class WiregaurdDriver implements VPNDriver
+class WireguardDriver implements VPNDriver
 {
     protected $config;
 

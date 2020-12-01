@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Driver\Drivers\WiregaurdDriver;
+use App\Driver\Drivers\WireguardDriver;
 use Illuminate\Http\Request;
 
 class ProfileController extends Controller
@@ -11,7 +11,7 @@ class ProfileController extends Controller
 
     public function __construct()
     {
-        $this->vpnDriver = new WiregaurdDriver();
+        $this->vpnDriver = new WireguardDriver();
     }
 
     public function get($name){
