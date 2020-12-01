@@ -46,7 +46,7 @@
                                     <th>
                                         <a href="{{route('profile.get',['name'=>$profile->name])}}">{{$profile->name}}</a>
                                     </th>
-                                    <td class="d-none d-lg-table-cell">{{$profile->public_key}}</td>
+                                    <td class="d-none d-lg-table-cell"><code>{{$profile->public_key}}</code></td>
                                     <td>{{$profile->created_date}}</td>
                                 </tr>
                             @endforeach

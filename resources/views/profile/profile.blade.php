@@ -28,7 +28,7 @@
                 </div>
                     <div class="col col-lg-8">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><b>Public Key: </b> {{$profile->public_key}}</li>
+                            <li class="list-group-item"><b>Public Key: </b> <code>{{$profile->public_key}}</code></li>
                             <li class="list-group-item"><b>Creation Date: </b> {{$profile->created_date}}</li>
                         </ul>
                     </div>
