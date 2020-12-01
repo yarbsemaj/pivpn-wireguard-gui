@@ -1,6 +1,6 @@
 # PiVPN WireGuard GUI 
 ###### A simple (unofficial) GUI for PiVPN.  
-![Image of WireGuard VPN Home](https://user-images.githubusercontent.com/17494632/100800240-37841b80-341e-11eb-9cdb-b5456f4ede2b.png)
+![Image of WireGuard VPN Home](https://user-images.githubusercontent.com/17494632/100802791-f0982500-3421-11eb-9060-682388e63c3c.png)
 Add, revoke and download WireGuard vpn profiles with QR Code support.
 ## Setup
  1. `composer install`
