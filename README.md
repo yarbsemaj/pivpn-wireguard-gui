@@ -9,3 +9,6 @@ Add, revoke and download WireGuard vpn profiles with QR Code support.
  4. `cp ./storage/app/users/users.json.example ./storage/app/users/users.json`
  5. Setup a user with a username and password **I strongly use of a UUID as a password**
  6. Serve `./public`
+ 
+ ## Extend
+ New drivers can be added by implementing the `VPNDriver.php` interface. 
