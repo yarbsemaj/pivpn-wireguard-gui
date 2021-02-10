@@ -7,7 +7,7 @@ Add, revoke and download WireGuard vpn profiles with QR Code support.
  2. `cp .env.example .env`
  3. Set `APP_KEY` to a random string.
  4. `cp ./storage/app/users/users.json.example ./storage/app/users/users.json`
- 5. Setup a user with a username and password **I strongly use of a UUID as a password**
+ 5. Setup a user with a username and password **I strongly recommend the use of a UUID as a password**
  6. Serve `./public`
  
  ## Extend
